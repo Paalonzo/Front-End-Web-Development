@@ -1,0 +1,13 @@
+body {
+    color: navy;
+    background-color: black;
+    font-size: 9pt
+    font-family: Arial;
+    
+}
+
+h1 {
+    color: gold;
+    font: 12 pt Verdana;
+    font-weight: bold;
+}

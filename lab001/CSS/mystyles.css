@@ -1,0 +1,41 @@
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+h1  {
+    text-align: center;
+    font: Helvetica;
+    color: navy;
+    background-color: grey;
+    font-weight: bold;
+}
+body {
+    background-color: lightgray;
+    background-image: url('../Media/Baseball.png');
+}
+footer{
+    text-align: center;
+}
+table {
+    
+    text-align: left;
+    width: 300px;
+    color: red;
+    background-color:lightgray;
+    font: Arial;
+    font-size: large;
+    font-style: normal;
+    float: left;
+}
+table.Team {
+     
+     width: 400px;
+     text-align: center;
+     color:red;
+     background-color: lightgrey;
+     font: Arial;
+     font-size: large;
+     font-style: normal;
+}

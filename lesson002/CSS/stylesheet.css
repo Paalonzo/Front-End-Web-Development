@@ -1,0 +1,26 @@
+h2 {
+    font-family: cursive;
+    color: blue;
+}
+
+body {
+    background-color: gray;
+}   
+
+body.image{
+    display:block;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+}
+
+li.Numeric{
+    list-style: upper-latin;
+}
+
+ol {list-style-type: lower-alpha;
+    font-family: cursive;
+    color: purple;
+}

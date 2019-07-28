@@ -1,0 +1,64 @@
+<html lang="en">
+
+    <head>
+        <title>My Web Form</title>
+        <style type="text/">
+
+         fieldset {
+             width: 75%;
+             border: 2px;
+         }
+
+         legend{
+             font-weight: bold;
+             font-size: 100%;
+         }
+
+         label.question{
+             width: 225px;
+             float: left;
+             text-align: left;
+             font-weight: bold;
+         }
+
+         span.question{
+             font-weight: bold;
+         }
+
+         input, textarea, select{
+             border: 1px;
+             padding: 3px;
+         }
+
+         #buttons{
+             margin-top: 12px;
+         }
+        </style>
+    </head>
+    <body>
+        <h1>My Web Form</h1>
+        <form name="MyForm" method="post" action="mailto:me@mysite.com"> 
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p><label class="question" for="the_name">
+                    Please enter your name:
+                </label>
+                    <input type="text" id="the_name" name="the_name"
+                    placeholder="Please enter your full name" required autofocus/>
+
+                </p>
+
+                <p><label class="question" for="email_address">
+                    Please enter your email address:
+                </label>
+                    <input type="email" id="email_address" name="email_address"
+                    placeholder="Please enter your email address" required autofocus/>
+                    
+                </p>
+            </fieldset>
+
+        </form>
+    </body>
+</html>
